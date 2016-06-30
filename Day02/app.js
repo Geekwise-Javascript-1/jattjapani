@@ -1,9 +1,14 @@
 var fname = prompt("What is your first name?");
 var lname = prompt("What is your last name");
-var fullname = fname + lname;
+var byear =  prompt ("What year were your born e.g 1982");
+var fullname = fname + " " + lname;
+var age = 2016 - byear;
 
 console.log(fname);
-confirm(lname);
-var resp = confirm("yes or no");
+console.log(lname);
+console.log(age);
+console.log("You are " + fullname + " and your age is " + age);
+confirm("You are " + fullname + " and your age is " + age);
+var resp = confirm("Everything correct?");
 alert(resp);
-document.write(fullname);
+document.write("You are " + fullname + " and your age is " + age);
