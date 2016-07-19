@@ -71,16 +71,16 @@ if (isNaN(number1)) {
   console.log(daysOfWeek[date.getDay()]);
 */
 
-function upperCase(string) {
+function capitalize(string) {
   var firstLetter = string.charAt(0);
-  var firstLetterUppercase = firstLetter.toUpperCase()
+  var firstLetterCapitalize = firstLetter.toUpperCase()
   var sliceString = string.slice(1);
 
-  var newUpperCaseString = firstLetterUppercase + sliceString;
+  var capitalizeName = firstLetterCapitalize + sliceString;
 
-  console.log(newUpperCaseString);
+  console.log(capitalizeName);
 }
 
 var name = prompt("Enter your name");
 
-upperCase(name);
+capitalize(name);
