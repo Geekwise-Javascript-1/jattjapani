@@ -1,0 +1,99 @@
+body {
+    background-color: #3B3738;
+    background-image: url(ileeclk.jpg);
+}
+h1 {
+    font-weight: normal;
+    background-color: #FDF3E7;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #333333;
+    border-radius: 10px;
+}
+#addToList {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C63D0F;
+    border-radius: 20px;
+}
+#textInput {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 230px;
+}
+#addButton {
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight:500;
+    font-size: 14pt;
+    background-color: #3D9970;
+    margin-left: 1%;
+}
+#addButton:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+#toDoField {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #008B8B;
+    border-radius: 10px;
+    text-decoration:underline;
+    text-align: center;
+    font-family: monospace;
+    font-weight:bolder;
+    font-size: 14pt;
+}
+#toDoList {
+    list-style:none;
+    color: green;
+}
+#doneField {
+    margin-left: 55%;
+    margin-right: 5%;
+    background-color: #556B2F;
+    background-size: auto;
+    border-radius: 10px;
+    text-decoration:underline;
+    text-align: center;
+    font-family: monospace;
+    font-weight:bolder;
+    font-size: 14pt;
+}
+
+#toDoListButton {
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight:500;
+    font-size: 14pt;
+    background-color: #DC143C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#toDoListButton:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#DoneListButton {
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight:500;
+    font-size: 14pt;
+    background-color: #DC143C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#doneListButton:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
